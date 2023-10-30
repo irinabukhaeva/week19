@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Блог</h1>
+    </header>
+    <main>
+      <div class="create">
+        <div class="inputs">
+          <label for="articleTitle">
+            <input
+              type="text"
+              id="articleTitle"
+              placeholder="Заголовок поста"
+            />
+          </label>
+          <label for="postBody">
+            <input type="text" id="postBody" placeholder="Текст поста" />
+          </label>
+        </div>
+        <button type="submit" id="btn-submit">Создать пост</button>
+      </div>
+
+      <div class="postsWrap" id="postsWrap">
+        <h1>Посты</h1>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
